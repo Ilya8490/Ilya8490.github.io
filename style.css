@@ -1,12 +1,21 @@
+
 body {
+    width: 50vw;
     background-color: brown;
 }
 button {
     color: green;
     font-size: xx-large;
     box-shadow: inset 2px 2px black;
-
+    margin: 20px;
+}
+button:hover {
+    box-shadow: 4px 4px 3px yellow;
 }
 h1 {
     color: yellowgreen;
+}
+img {
+    border-radius: 20%;
+    margin: 2em;
 }
